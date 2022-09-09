@@ -1,0 +1,19 @@
+{
+  "name": "generate-mithril-icons",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Basic example of how to generate icons from a folder to mithril vnodes",
+  "license": "MIT",
+  "scripts": {
+    "icons": "node scripts/generate.js"
+  },
+  "devDependencies": {
+    "@types/mithril": "^2.0.11",
+    "ansis": "^1.5.1",
+    "cheerio": "1.0.0-rc.12",
+    "html-minifier": "^4.0.0"
+  },
+  "dependencies": {
+    "mithril": "^2.2.2"
+  }
+}
